@@ -9,8 +9,8 @@ from PIL import Image
 import os
 
 # Carga el GIF
-gif_path = "prueba_pulsera.gif"
-output_folder = "frames_pulsera/"
+gif_path = "gif.gif"
+output_folder = "frames/"
 os.makedirs(output_folder, exist_ok=True)
 
 # Abre el GIF
