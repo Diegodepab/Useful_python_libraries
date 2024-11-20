@@ -35,7 +35,7 @@ def bmp_to_header(bmp_file, output_file, array_name):
         f.write("};\n")
 
 # Carpeta de entrada (contiene los archivos BMP)
-input_folder = "frames_pulsera/"
+input_folder = "frames/"
 # Carpeta de salida (donde se guardarán los archivos .h)
 output_folder = "output_headers/"
 os.makedirs(output_folder, exist_ok=True)  # Crear la carpeta de salida si no existe
